@@ -24085,6 +24085,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C6S97C8DKX;
 				INFOPLIST_FILE = Riot/SupportingFiles/Info.plist;
+				KEYCHAIN_ACCESS_GROUP = com.zhoushushangmao.flutterim1;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				RIOT_PROVISIONING_PROFILE = "";
@@ -24176,6 +24177,7 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = C6S97C8DKX;
 				INFOPLIST_FILE = Riot/SupportingFiles/Info.plist;
+				KEYCHAIN_ACCESS_GROUP = com.zhoushushangmao.flutterim1;
 				RIOT_PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
