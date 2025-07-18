@@ -651,7 +651,6 @@
 		2878E64DBB0AB1A55602A5D0 /* SpaceSettingsModalCoordinatorParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8B45CCCF4F95C411A88756 /* SpaceSettingsModalCoordinatorParameters.swift */; };
 		2890AA5A75E2D192CF1759EA /* UserOtherSessionsToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FDC9BDB131BC1EC3EAC462 /* UserOtherSessionsToolbar.swift */; };
 		289FE210CA9D4AEB6CE6BCCD /* TimelinePollMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD921C7648FCFB23C3BE01B /* TimelinePollMessageView.swift */; };
-		28AE7A91B6E08CA5C32136F6 /* RiotNSE.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BDAB5596BD5C3A11C698FC74 /* RiotNSE.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		28B49293DFA58FB0D94D730C /* AuthenticationQRLoginFailureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1713111DB490D27093A703 /* AuthenticationQRLoginFailureViewModel.swift */; };
 		28B5982B5AEB3B31A724B320 /* ManageSession.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE539F90798528AB8E3891F6 /* ManageSession.storyboard */; };
 		28B8224EBB2FC363456F8512 /* UNUserNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09354BCCA9AC22F51888E5E6 /* UNUserNotificationCenter.swift */; };
@@ -4255,13 +4254,6 @@
 			remoteGlobalIDString = 4DC3BB5CE771CC525034ADE3;
 			remoteInfo = CommonKit;
 		};
-		C748A4CD782AF6C1CFEDDD9D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6BBFF197302B686E102B00C9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CEB2CC3FC1822B29B630B940;
-			remoteInfo = RiotNSE;
-		};
 		F08C57AA3A44506D6875E077 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6BBFF197302B686E102B00C9 /* Project object */;
@@ -4285,7 +4277,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				28AE7A91B6E08CA5C32136F6 /* RiotNSE.appex in Embed Foundation Extensions */,
 				8E12904F6340771987F471BC /* BroadcastUploadExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
@@ -19155,7 +19146,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				A35C1324967921710D8CD7B0 /* PBXTargetDependency */,
 				7B07257FA3B0502B2FC92D69 /* PBXTargetDependency */,
 				DA398FC4C332F4E4700A4D49 /* PBXTargetDependency */,
 				4A9C430DFA8C987E86FAC478 /* PBXTargetDependency */,
@@ -23993,11 +23983,6 @@
 			target = 4DC3BB5CE771CC525034ADE3 /* CommonKit */;
 			targetProxy = 73BC446B18069878CF78753C /* PBXContainerItemProxy */;
 		};
-		A35C1324967921710D8CD7B0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CEB2CC3FC1822B29B630B940 /* RiotNSE */;
-			targetProxy = C748A4CD782AF6C1CFEDDD9D /* PBXContainerItemProxy */;
-		};
 		C2529F0D1D199168919515B1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5F7774205BC86A4169847031 /* RiotSwiftUI */;
@@ -24039,7 +24024,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 40D5B2788B57C2CB9A164C37 /* Release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6S97C8DKX;
 				INFOPLIST_FILE = RiotNSE/Info.plist;
+				NSE_PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -24063,6 +24053,7 @@
 			baseConfigurationReference = 7DA9B2B44DE65B18A1DCE043 /* Pods-RiotPods-RiotSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C6S97C8DKX;
 				GENERATE_INFOPLIST_FILE = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.matrix.RiotSwiftUITests$(rfc1034identifier)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/RiotSwiftUI/RiotSwiftUI-Bridging-Header.h";
@@ -24076,6 +24067,7 @@
 			baseConfigurationReference = D15774F3CD0100ED8B531843 /* Debug.xcconfig */;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6S97C8DKX;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -24089,7 +24081,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C6808FE11B44F1465D91F33A /* Release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6S97C8DKX;
 				INFOPLIST_FILE = Riot/SupportingFiles/Info.plist;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				RIOT_PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -24110,7 +24108,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 997BE5A55B4B43EE819BE91E /* Debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = C6S97C8DKX;
 				INFOPLIST_FILE = RiotNSE/Info.plist;
+				NSE_PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -24119,6 +24119,7 @@
 			baseConfigurationReference = 975D1365A8181F19B75A996C /* Debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C6S97C8DKX;
 				INFOPLIST_FILE = RiotSwiftUI/Info.plist;
 			};
 			name = Debug;
@@ -24173,7 +24174,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0B09B5491134F2FEFD28D398 /* Debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = C6S97C8DKX;
 				INFOPLIST_FILE = Riot/SupportingFiles/Info.plist;
+				RIOT_PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -24181,12 +24184,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ED6F9AED10028998D7EC4508 /* Release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CommonKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -24195,7 +24202,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B6E3F6DA2DBD181F9A4472E3 /* Release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6S97C8DKX;
 				INFOPLIST_FILE = BroadcastUploadExtension/SupportingFiles/Info.plist;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -24204,6 +24215,7 @@
 			baseConfigurationReference = D15774F3CD0100ED8B531843 /* Debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C6S97C8DKX;
 				INFOPLIST_FILE = CommonKit/Info.plist;
 			};
 			name = Debug;
@@ -24256,12 +24268,16 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E8F2AF4A683A9900590223AC /* Release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6S97C8DKX;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = DesignKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -24280,7 +24296,11 @@
 			baseConfigurationReference = ED6F9AED10028998D7EC4508 /* Release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C6S97C8DKX;
 				INFOPLIST_FILE = CommonKit/Info.plist;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -24298,6 +24318,7 @@
 			baseConfigurationReference = 6C3F700E95E3ECA1CC574DAF /* Debug.xcconfig */;
 			buildSettings = {
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C6S97C8DKX;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
