@@ -840,6 +840,16 @@ Please see LICENSE in the repository root for full details.
         {
             contact = [[MXKContact alloc] initContactWithDisplayName:searchText emails:nil phoneNumbers:nil andThumbnail:nil];
         }
+        // 如果输入不包含 "@"
+        else if (![searchText containsString:@"@"])
+        {
+            // 自动在前面加上 "@"，并在后面加上 ":im.8mmglobal.com"
+            searchText = [@"@" stringByAppendingString:searchText];
+            searchText = [searchText stringByAppendingString:@":im.8mmglobal.com"];
+            
+            // 创建 Matrix 用户联系信息
+            contact = [[MXKContact alloc] initMatrixContactWithDisplayName:searchText andMatrixID:searchText];
+        }
         
         [self showAllowOnlyOneInvitByEmailAllowedHeaderView: ![self canAddParticipant:contact]];
     }
