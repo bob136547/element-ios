@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "1430"
-   version = "1.3">
+   wasCreatedForAppExtension = "YES"
+   version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
-      buildImplicitDependencies = "YES">
+      buildImplicitDependencies = "YES"
+      runPostActionsOnFailure = "NO">
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
@@ -14,9 +16,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "57B13CC4586E9D43ED24DE1E"
-               BuildableName = "Element.app"
-               BlueprintName = "Riot"
+               BlueprintIdentifier = "CEB2CC3FC1822B29B630B940"
+               BuildableName = "RiotNSE.appex"
+               BlueprintName = "RiotNSE"
                ReferencedContainer = "container:Riot.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,60 +30,46 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       disableMainThreadChecker = "YES"
-      codeCoverageEnabled = "YES"
-      onlyGenerateCoverageForSpecifiedTargets = "YES">
+      onlyGenerateCoverageForSpecifiedTargets = "NO">
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "57B13CC4586E9D43ED24DE1E"
-            BuildableName = "Element.app"
-            BlueprintName = "Riot"
+            BlueprintIdentifier = "CEB2CC3FC1822B29B630B940"
+            BuildableName = "RiotNSE.appex"
+            BlueprintName = "RiotNSE"
             ReferencedContainer = "container:Riot.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <CodeCoverageTargets>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "57B13CC4586E9D43ED24DE1E"
-            BuildableName = "Element.app"
-            BlueprintName = "Riot"
-            ReferencedContainer = "container:Riot.xcodeproj">
-         </BuildableReference>
-      </CodeCoverageTargets>
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "287703423C2C302524E92C03"
-               BuildableName = "RiotTests.xctest"
-               BlueprintName = "RiotTests"
-               ReferencedContainer = "container:Riot.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
+      <CommandLineArguments>
+      </CommandLineArguments>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      selectedDebuggerIdentifier = ""
+      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
       disableMainThreadChecker = "YES"
       launchStyle = "0"
+      askForAppToLaunch = "YES"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
-      allowLocationSimulation = "YES">
+      allowLocationSimulation = "YES"
+      launchAutomaticallySubstyle = "2">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "57B13CC4586E9D43ED24DE1E"
-            BuildableName = "Element.app"
-            BlueprintName = "Riot"
+            BlueprintIdentifier = "CEB2CC3FC1822B29B630B940"
+            BuildableName = "RiotNSE.appex"
+            BlueprintName = "RiotNSE"
             ReferencedContainer = "container:Riot.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+      </CommandLineArguments>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -93,12 +81,14 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "57B13CC4586E9D43ED24DE1E"
-            BuildableName = "Element.app"
-            BlueprintName = "Riot"
+            BlueprintIdentifier = "CEB2CC3FC1822B29B630B940"
+            BuildableName = "RiotNSE.appex"
+            BlueprintName = "RiotNSE"
             ReferencedContainer = "container:Riot.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+      </CommandLineArguments>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

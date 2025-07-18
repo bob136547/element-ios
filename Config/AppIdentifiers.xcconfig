@@ -16,13 +16,13 @@
 
 
 // App identity
-BUNDLE_DISPLAY_NAME = Element
-BASE_BUNDLE_IDENTIFIER = im.vector.app
-APPLICATION_GROUP_IDENTIFIER = group.im.vector
-APPLICATION_SCHEME = element
+BUNDLE_DISPLAY_NAME = 智联Talk
+BASE_BUNDLE_IDENTIFIER = com.zhoushushangmao.flutterim1
+APPLICATION_GROUP_IDENTIFIER = group.im.zhoushushangmao
+APPLICATION_SCHEME = 智联Talk
 
 // Team
-DEVELOPMENT_TEAM = 7J4U792NQT
+DEVELOPMENT_TEAM = 3C35ZP2B73
 
 
 // Provisioning profiles

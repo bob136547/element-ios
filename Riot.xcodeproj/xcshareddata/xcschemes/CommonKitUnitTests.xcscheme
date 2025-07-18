@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "57B13CC4586E9D43ED24DE1E"
-               BuildableName = "Element.app"
-               BlueprintName = "Riot"
+               BlueprintIdentifier = "72146606A0AB1B94D529AF9F"
+               BuildableName = "CommonKit.xctest"
+               BlueprintName = "CommonKitUnitTests"
                ReferencedContainer = "container:Riot.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -27,35 +27,24 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
-      disableMainThreadChecker = "YES"
-      codeCoverageEnabled = "YES"
-      onlyGenerateCoverageForSpecifiedTargets = "YES">
+      disableMainThreadChecker = "YES">
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "57B13CC4586E9D43ED24DE1E"
-            BuildableName = "Element.app"
-            BlueprintName = "Riot"
+            BlueprintIdentifier = "72146606A0AB1B94D529AF9F"
+            BuildableName = "CommonKit.xctest"
+            BlueprintName = "CommonKitUnitTests"
             ReferencedContainer = "container:Riot.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <CodeCoverageTargets>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "57B13CC4586E9D43ED24DE1E"
-            BuildableName = "Element.app"
-            BlueprintName = "Riot"
-            ReferencedContainer = "container:Riot.xcodeproj">
-         </BuildableReference>
-      </CodeCoverageTargets>
       <Testables>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "287703423C2C302524E92C03"
-               BuildableName = "RiotTests.xctest"
-               BlueprintName = "RiotTests"
+               BlueprintIdentifier = "72146606A0AB1B94D529AF9F"
+               BuildableName = "CommonKit.xctest"
+               BlueprintName = "CommonKitUnitTests"
                ReferencedContainer = "container:Riot.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -72,16 +61,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "57B13CC4586E9D43ED24DE1E"
-            BuildableName = "Element.app"
-            BlueprintName = "Riot"
+            BlueprintIdentifier = "72146606A0AB1B94D529AF9F"
+            BuildableName = "CommonKit.xctest"
+            BlueprintName = "CommonKitUnitTests"
             ReferencedContainer = "container:Riot.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -89,16 +77,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "57B13CC4586E9D43ED24DE1E"
-            BuildableName = "Element.app"
-            BlueprintName = "Riot"
+            BlueprintIdentifier = "72146606A0AB1B94D529AF9F"
+            BuildableName = "CommonKit.xctest"
+            BlueprintName = "CommonKitUnitTests"
             ReferencedContainer = "container:Riot.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

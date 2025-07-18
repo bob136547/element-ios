@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "57B13CC4586E9D43ED24DE1E"
-               BuildableName = "Element.app"
-               BlueprintName = "Riot"
+               BlueprintIdentifier = "287703423C2C302524E92C03"
+               BuildableName = "RiotTests.xctest"
+               BlueprintName = "RiotTests"
                ReferencedContainer = "container:Riot.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,9 +33,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "57B13CC4586E9D43ED24DE1E"
-            BuildableName = "Element.app"
-            BlueprintName = "Riot"
+            BlueprintIdentifier = "287703423C2C302524E92C03"
+            BuildableName = "RiotTests.xctest"
+            BlueprintName = "RiotTests"
             ReferencedContainer = "container:Riot.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,16 +72,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "57B13CC4586E9D43ED24DE1E"
-            BuildableName = "Element.app"
-            BlueprintName = "Riot"
+            BlueprintIdentifier = "287703423C2C302524E92C03"
+            BuildableName = "RiotTests.xctest"
+            BlueprintName = "RiotTests"
             ReferencedContainer = "container:Riot.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -89,16 +88,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "57B13CC4586E9D43ED24DE1E"
-            BuildableName = "Element.app"
-            BlueprintName = "Riot"
+            BlueprintIdentifier = "287703423C2C302524E92C03"
+            BuildableName = "RiotTests.xctest"
+            BlueprintName = "RiotTests"
             ReferencedContainer = "container:Riot.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
