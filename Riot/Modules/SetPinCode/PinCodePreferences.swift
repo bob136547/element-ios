@@ -34,8 +34,7 @@ final class PinCodePreferences: NSObject {
     private let store: KeyValueStore
     
     override private init() {
-        store = KeychainStore(withKeychain: Keychain(service: PinConstants.pinCodeKeychainService,
-                                                     accessGroup: BuildSettings.keychainAccessGroup))
+        store = KeychainStore(withKeychain: Keychain(service: PinConstants.pinCodeKeychainService))
         super.init()
     }
     

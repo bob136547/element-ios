@@ -27,8 +27,7 @@ final class PushNotificationStore: NSObject {
     private let store: KeyValueStore
     
     override init() {
-        store = KeychainStore(withKeychain: Keychain(service: PushNotificationConstants.pushNotificationKeychainService,
-                                                     accessGroup: BuildSettings.keychainAccessGroup))
+        store = KeychainStore(withKeychain: Keychain(service: PushNotificationConstants.pushNotificationKeychainService))
         super.init()
     }
     

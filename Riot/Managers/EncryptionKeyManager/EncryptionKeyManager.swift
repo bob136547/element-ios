@@ -24,7 +24,7 @@ class EncryptionKeyManager: NSObject, MXKeyProviderDelegate {
     private static let roomLastMessageAesKey: KeyValueStoreKey = "roomLastMessageAesKey"
     private static let cryptoSDKStoreKey: KeyValueStoreKey = "cryptoSDKStoreKey"
 
-    private let keychainStore: KeyValueStore = KeychainStore(withKeychain: Keychain(service: keychainService, accessGroup: BuildSettings.keychainAccessGroup))
+    private let keychainStore: KeyValueStore = KeychainStore(withKeychain: Keychain(service: keychainService))
 
     private override init() {
         super.init()
