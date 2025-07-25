@@ -1946,13 +1946,14 @@ static CGSize kThreadListBarButtonItemImageSize;
                     itemVoice.enabled = !self.isCallActive;
                     [rightBarButtonItems addObject:itemVoice];
                     
+                    /*
                     //  video call button for Matrix call
                     UIBarButtonItem *itemVideo = [self videoCallBarButtonItem];
                     itemVideo.enabled = !self.isCallActive;
                     [rightBarButtonItems addObject:itemVideo];
+                     */
                 }
-                else
-                {
+                else if (NO) {
                     //  video call button for Jitsi call
                     if (self.isCallActive)
                     {
@@ -2394,7 +2395,7 @@ static CGSize kThreadListBarButtonItemImageSize;
             [self.delegate roomViewControllerDidRequestPollCreationFormPresentation:self];
         }]];
     }
-    if (BuildSettings.locationSharingEnabled && !self.isNewDirectChat)
+    if (NO && BuildSettings.locationSharingEnabled && !self.isNewDirectChat)
     {
         [actionItems addObject:[[RoomActionItem alloc] initWithImage:AssetImages.actionLocation.image andAction:^{
             MXStrongifyAndReturnIfNil(self);
